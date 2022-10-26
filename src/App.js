@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className="container pt-4">
+      <div className="container pt-4 pl-4">
         <Routes>
           <Route path="/" element={ <Home /> } exact />
           <Route path="/about" element={ <About /> } />
