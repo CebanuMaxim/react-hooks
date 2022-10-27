@@ -6,7 +6,6 @@ export const Home = () => {
     const cards = new Array(15)
         .fill('')
         .map((_, index) => index)
-    console.log(cards);
     return (
         <Fragment>
             <Search />
